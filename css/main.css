@@ -302,7 +302,7 @@ main .model .cards .model-card-img-first {
   color: rgba(0, 0, 0, 0.5);
 }
 main .model .cards .model-card-img-second {
-  background-image: url("../img/T3.png");
+  background-image: url("../img/t3.png");
   color: rgba(255, 255, 255, 0.75);
   background-position: 80%;
 }
