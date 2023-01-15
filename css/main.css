@@ -500,6 +500,11 @@ footer .copyright {
     font-size: 72px;
     line-height: 76px;
   }
+  
+  main .start .menu{
+    display: none;
+  }
+    
   main .start .hero-img p {
     font-size: 32px;
     padding: 0 204px;
