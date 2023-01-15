@@ -235,6 +235,7 @@ main .model .model-card .model-card-info {
   list-style-type: none;
 }
 main .model .model-card .model-card-info i {
+  cursor: pointer;
   position: absolute;
   font-size: 35px;
   top: 0;
@@ -694,7 +695,10 @@ footer .copyright {
 }
 @media (min-width: 1400px) {
   nav {
+    position: fixed;
     height: 90px;
+    z-index: 1000;
+    top: 0;
   }
   nav .navbar {
     position: relative;
@@ -729,6 +733,7 @@ footer .copyright {
     font-size: 57px;
   }
   main .start .hero-img {
+    margin-top: 50px;
     background-image: none;
     display: flex;
     flex-direction: column;
