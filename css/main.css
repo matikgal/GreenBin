@@ -501,9 +501,6 @@ footer .copyright {
     line-height: 76px;
   }
   
-  main .start .menu{
-    display: none;
-  }
     
   main .start .hero-img p {
     font-size: 32px;
@@ -771,6 +768,10 @@ footer .copyright {
   main .start .hero-img .btn-start {
     margin-left: 5%;
     color: #000;
+  }
+  
+  main .start .menu{
+    display: none;
   }
   main .new-product h2 {
     margin-top: 20%;
