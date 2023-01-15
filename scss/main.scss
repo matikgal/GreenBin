@@ -250,6 +250,7 @@ main {
 
 			.model-card-info {
 				i {
+					cursor: pointer;
 					position: absolute;
 					font-size: 35px;
 					top: 0;
@@ -808,7 +809,10 @@ footer {
 
 @media (min-width: 1400px) {
 	nav {
+		position: fixed;
 		height: 90px;
+		z-index: 1000;
+		top: 0;
 
 		.navbar {
 			.navbarrrs {
@@ -853,6 +857,7 @@ footer {
 	main {
 		.start {
 			.hero-img {
+				margin-top: 50px;
 				background-image: none;
 				display: flex;
 				flex-direction: column;
